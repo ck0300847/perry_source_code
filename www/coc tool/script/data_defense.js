@@ -1,4 +1,5 @@
 
+var defense_cannon_num = 13;
 var defense_cannon  = new Array();
 defense_cannon[1] = 
 {
@@ -6,7 +7,8 @@ defense_cannon[1] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:1, 
-	build_time:1
+	build_time:1,
+	img_src:"Cannon1.png"
 };
 defense_cannon[2] = 
 {
@@ -14,7 +16,8 @@ defense_cannon[2] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:1, 
-	build_time:15
+	build_time:15,
+	img_src:"Cannon2.png"
 };
 defense_cannon[3] = 
 {
@@ -22,7 +25,8 @@ defense_cannon[3] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:2, 
-	build_time:45
+	build_time:45,
+	img_src:"Cannon3.png"
 };
 defense_cannon[4] = 
 {
@@ -30,7 +34,8 @@ defense_cannon[4] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:3, 
-	build_time:2*60
+	build_time:2*60,
+	img_src:"Cannon4.png"
 };
 defense_cannon[5] = 
 {
@@ -38,7 +43,8 @@ defense_cannon[5] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:4, 
-	build_time:6*60
+	build_time:6*60,
+	img_src:"Cannon5.png"
 };
 defense_cannon[6] = 
 {
@@ -46,7 +52,8 @@ defense_cannon[6] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:5, 
-	build_time:12*60
+	build_time:12*60,
+	img_src:"Cannon6.png"
 };
 defense_cannon[7] = 
 {
@@ -54,7 +61,8 @@ defense_cannon[7] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:6, 
-	build_time:1*60*24
+	build_time:1*60*24,
+	img_src:"Cannon7.png"
 };
 defense_cannon[8] = 
 {
@@ -62,7 +70,8 @@ defense_cannon[8] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:7, 
-	build_time:2*60*24
+	build_time:2*60*24,
+	img_src:"Cannon8.png"
 };
 defense_cannon[9] = 
 {
@@ -70,7 +79,8 @@ defense_cannon[9] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:8, 
-	build_time:3*60*24
+	build_time:3*60*24,
+	img_src:"Cannon9.png"
 };
 defense_cannon[10] = 
 {
@@ -78,7 +88,8 @@ defense_cannon[10] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:8, 
-	build_time:4*60*24
+	build_time:4*60*24,
+	img_src:"Cannon10.png"
 };
 defense_cannon[11] = 
 {
@@ -86,7 +97,8 @@ defense_cannon[11] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:9, 
-	build_time:5*60*24
+	build_time:5*60*24,
+	img_src:"Cannon11.png"
 };
 defense_cannon[12] = 
 {
@@ -94,7 +106,8 @@ defense_cannon[12] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:10, 
-	build_time:6*60*24
+	build_time:6*60*24,
+	img_src:"Cannon12.png"
 };
 defense_cannon[13] = 
 {
@@ -102,7 +115,8 @@ defense_cannon[13] =
 	elixir:0, 
 	dark_elxir:0, 
 	town_level:10, 
-	build_time:7*60*24
+	build_time:7*60*24,
+	img_src:"Cannon13.png"
 };
 
 var defense_archer_tower  = new Array();
